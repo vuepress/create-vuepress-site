@@ -1,6 +1,6 @@
 {
   "name": "create-vuepress-site",
-  "version": "0.4.0-beta",
+  "version": "0.4.1-beta",
   "description": "Scaffolding a VuePress project",
   "files": [
     "lib",
