@@ -43,7 +43,6 @@
   },
   "lint-staged": {
     "*.js": [
-      "xo --fix",
       "git add"
     ]
   },
