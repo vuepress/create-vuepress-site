@@ -2,8 +2,6 @@
 
 Scaffolding a VuePress project
 
-[![NPM version](https://badgen.net/npm/v/create-vuepress-site)](https://npmjs.com/package/create-vuepress-site) [![NPM downloads](https://badgen.net/npm/dm/create-vuepress-site)](https://npmjs.com/package/create-vuepress-site)
-
 ## Getting Started
 
 ### Run generator
