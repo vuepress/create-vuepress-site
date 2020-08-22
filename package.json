@@ -10,9 +10,7 @@
   "bin": {
     "create-vuepress-site": "cli.js"
   },
-  "scripts": {
-    "lint": "xo"
-  },
+  "scripts": {},
   "repository": {
     "url": "vuepressjs/create-vuepress-site",
     "type": "git"
