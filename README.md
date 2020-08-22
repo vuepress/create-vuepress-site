@@ -20,8 +20,7 @@ Please be sure to `cd [appName]` and run `yarn` to install dependencies.
 
 ## Boilerplates
 
-- `docs` - Create a documentation project with VuePress.
-- `blog` - Create a blog project with VuePress.
+- `docs` - Create a documentation site with VuePress.
 
 ## Contributing
 
