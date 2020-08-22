@@ -4,23 +4,34 @@ Scaffolding a VuePress project
 
 [![NPM version](https://badgen.net/npm/v/create-vuepress-site)](https://npmjs.com/package/create-vuepress-site) [![NPM downloads](https://badgen.net/npm/dm/create-vuepress-site)](https://npmjs.com/package/create-vuepress-site)
 
-## Usage
+## Getting Started
 
-> Note that you need to initialize this instruction in an empty directory.
+### Run generator
+
+In the desired folder, run the following command to start the VuePress site generator:
 
 ```shell
-# npm
-$ npx create-vuepress-site [appName]
-
-# yarn
-$ yarn create vuepress-site [appName]
+npx create-vuepress-site
+# yarn create vuepress-site
 ```
 
-Please be sure to `cd [appName]` and run `yarn` to install dependencies.
+This will create a scaffolded documentation site in the `docs` directory that is enclosed from the rest of the folder.
 
-## Boilerplates
+### Setup local environment
 
-- `docs` - Create a documentation site with VuePress.
+```shell
+# Navigate into newly scaffolded docs directory
+cd docs
+
+# Install dependencies
+npm install
+# yarn install
+
+# Start local dev server
+npm run dev
+```
+
+By default, you should now see your scaffolded VuePress docs site at https://localhost:8080!
 
 ## Contributing
 
