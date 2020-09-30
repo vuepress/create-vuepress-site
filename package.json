@@ -25,6 +25,7 @@
     "fs-extra": "^8.0.1",
     "glob": "^7.1.4",
     "inquirer": "^6.2.1",
+    "js-yaml": "^3.14.0",
     "mkdirp": "^0.5.1",
     "prettier": "^1.17.0",
     "semver": "^6.1.0",
