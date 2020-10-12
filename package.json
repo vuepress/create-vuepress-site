@@ -10,7 +10,9 @@
   "bin": {
     "create-vuepress-site": "cli.js"
   },
-  "scripts": {},
+  "scripts": {
+    "lint": "eslint . --ext .js"
+  },
   "repository": {
     "url": "vuepressjs/create-vuepress-site",
     "type": "git"
@@ -33,6 +35,9 @@
     "yeoman-generator": "^4.0.1"
   },
   "devDependencies": {
+    "eslint": "^7.11.0",
+    "eslint-config-prettier": "^6.12.0",
+    "eslint-plugin-prettier": "^3.1.4",
     "husky": "1.3.1",
     "lint-staged": "8.1.0"
   },
@@ -43,6 +48,7 @@
   },
   "lint-staged": {
     "*.js": [
+      "eslint --fix",
       "git add"
     ]
   },
