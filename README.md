@@ -12,6 +12,40 @@ In the desired folder, run the following command to start the VuePress site gene
 npx create-vuepress-site
 # yarn create vuepress-site
 ```
+## Using Docker
+
+Download the Dockerfile:
+
+```bash
+mkdir docker
+cd docker
+wget https://github.com/vuepress/create-vuepress-site/raw/master/docker/Dockerfile
+```
+
+Build the Docker images:
+
+```bash
+docker build -t vuepress-site-generator:latest .
+```
+
+Make a folder where you want to generate the Service:
+
+```bash
+mkdir service
+cd service
+```
+
+Run the generator from image to generate service:
+
+```bash
+docker run -it --rm -v $PWD:/home/vuepress/app vuepress-site-generator
+```
+
+Run and attach interactive shell to the generator docker container to work from inside the running container:
+
+```bash
+docker run -it --rm -v $PWD:/home/vuepress/app vuepress-site-generator /bin/bash
+```
 
 This will create a scaffolded documentation site in the `docs` directory that is enclosed from the rest of the folder.
 
