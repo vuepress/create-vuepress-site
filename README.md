@@ -10,7 +10,7 @@ In the desired folder, run the following command to start the VuePress site gene
 
 ```shell
 npx create-vuepress-site
-# yarn create vuepress-site
+# or: yarn create vuepress-site
 ```
 
 This will create a scaffolded documentation site in the `docs` directory that is enclosed from the rest of the folder.
@@ -23,10 +23,11 @@ cd docs
 
 # Install dependencies
 npm install
-# yarn install
+# or: yarn install
 
 # Start local dev server
 npm run dev
+# or: yarn run dev
 ```
 
 By default, you should now see your scaffolded VuePress docs site at https://localhost:8080!
