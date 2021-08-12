@@ -13,6 +13,11 @@ npx create-vuepress-site
 # yarn create vuepress-site
 ```
 
+Answer some project's information and choose one of the template:
+- docs (the vuepress standard template)
+- documentation-system (an opinionated documentation system based upon Divio's documentation-system)
+
+
 This will create a scaffolded documentation site in the `docs` directory that is enclosed from the rest of the folder.
 
 ### Setup local environment
